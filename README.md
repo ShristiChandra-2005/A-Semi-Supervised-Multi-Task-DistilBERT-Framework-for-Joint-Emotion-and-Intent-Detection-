@@ -30,7 +30,6 @@ The model was evaluated on a held-out test set, demonstrating strong performance
 
 <img width="278" height="137" alt="image" src="https://github.com/user-attachments/assets/1ec97c86-50e4-4249-a8ad-569dddfe9341" />
 
-> **Note:** The **overall joint classification accuracy** for the final model was **[INSERT FINAL ACCURACY HERE]**. *Please replace all bracketed placeholders with your actual results.*
 
 -----
 
