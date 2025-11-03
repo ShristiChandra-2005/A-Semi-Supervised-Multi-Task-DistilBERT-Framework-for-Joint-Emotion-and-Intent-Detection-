@@ -35,8 +35,8 @@ The model was evaluated on a held-out test set, demonstrating strong performance
 
 | Task | Metric (Weighted F1-Score) | Final Accuracy |
 | :--- | :--- | :--- |
-| **Emotion Detection** | **[INSERT EMOTION F1 HERE 666]** | **[INSERT EMOTION ACCURACY HERE]** |
-| **Intent Detection** | **[INSERT INTENT F1 HERE]** | **[INSERT INTENT ACCURACY HERE]** |
+| **Emotion Detection** | **[INSERT EMOTION F1 :0.8902 ]** | **[INSERT EMOTION ACCURACY:0.8431]** |
+| **Intent Detection** | **[INSERT INTENT F1 :0.8556]** | **[INSERT INTENT ACCURACY :0.6207]** |
 
 > **Note:** The **overall joint classification accuracy** for the final model was **[INSERT FINAL ACCURACY HERE]**. *Please replace all bracketed placeholders with your actual results.*
 
