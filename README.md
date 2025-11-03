@@ -1,8 +1,3 @@
-I can certainly update the README to include a final accuracy metric and integrate the new image. Since the exact final accuracy is not provided, I will insert a **placeholder** metric that you must replace with your model's actual result. I will also incorporate the four uploaded images strategically.
-
-Here is the final, revised README.md:
-
------
 
 ## 📄 A Semi-Supervised Multi-Task DistilBERT Framework for Joint Emotion and Intent Detection
 
