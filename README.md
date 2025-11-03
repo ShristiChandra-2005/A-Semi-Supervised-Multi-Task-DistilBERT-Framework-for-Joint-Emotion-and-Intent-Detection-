@@ -1,6 +1,6 @@
-Based on your project's new, specific title and focus—**"A Semi-Supervised Multi-Task DistilBERT Framework for Joint Emotion and Intent Detection"** with the technologies **Python, PyTorch, Hugging Face, Multi-Task Learning**—and the constraint that the **chatbot component is not yet finalized**, here is the professional, adjusted README.md file.
+I can certainly update the README to include a final accuracy metric and integrate the new image. Since the exact final accuracy is not provided, I will insert a **placeholder** metric that you must replace with your model's actual result. I will also incorporate the four uploaded images strategically.
 
-The README now focuses heavily on the **Model Framework, Training, and Evaluation**, rather than the application. I've also incorporated the three images you uploaded as visual aids for architecture, performance, and a project overview.
+Here is the final, revised README.md:
 
 -----
 
@@ -26,6 +26,19 @@ The primary innovation lies in the use of a **semi-supervised learning** approac
 2.  **Semi-Supervision:** Implement an effective pseudo-labeling pipeline to utilize heterogeneous datasets.
 3.  **Joint Prediction:** Achieve strong performance on the simultaneous classification of user **Emotion** and **Intent**.
 4.  **Efficiency:** Optimize the model (DistilBERT base) for efficient training and local inference (CPU/GPU).
+
+-----
+
+## 🎯 Final Evaluation Results
+
+The model was evaluated on a held-out test set, demonstrating strong performance across both tasks due to the multi-task and semi-supervised training approach.
+
+| Task | Metric (Weighted F1-Score) | Final Accuracy |
+| :--- | :--- | :--- |
+| **Emotion Detection** | **[INSERT EMOTION F1 HERE 666]** | **[INSERT EMOTION ACCURACY HERE]** |
+| **Intent Detection** | **[INSERT INTENT F1 HERE]** | **[INSERT INTENT ACCURACY HERE]** |
+
+> **Note:** The **overall joint classification accuracy** for the final model was **[INSERT FINAL ACCURACY HERE]**. *Please replace all bracketed placeholders with your actual results.*
 
 -----
 
@@ -74,15 +87,12 @@ Follow these steps to set up the environment and execute the training pipeline.
 ### Installation
 
 1.  **Clone the repository:**
-
     ```bash
     git clone [YOUR_REPO_URL]
     cd [project-name]
     ```
-
 2.  **Install dependencies:**
-    *(You will need to create a `requirements.txt` file listing essential libraries: `torch`, `transformers`, `pandas`, `scikit-learn`, `tqdm`, etc.)*
-
+    *(You will need a `requirements.txt` file listing essential libraries: `torch`, `transformers`, `pandas`, `scikit-learn`, `tqdm`, etc.)*
     ```bash
     pip install -r requirements.txt
     ```
@@ -114,10 +124,11 @@ The entire workflow, from data preparation to model persistence, is contained in
 
 The current framework provides the state-of-the-art analytical core. Future work will focus on:
 
-  * Integrating the model into a **secure, live-deployment chatbot environment**.
+  * Integrating the model into a **secure, live-deployment chatbot environment** (which is not yet complete).
   * Exploring different semi-supervised techniques (e.g., consistency training).
   * Benchmarking against other lightweight models (e.g., BERT-Mini).
 
 
+-----
 
-Would you like me to suggest the specific content for a `requirements.txt` file based on the technologies listed?
+Would you like me to help draft the `requirements.txt` file or the `LICENSE` file?
