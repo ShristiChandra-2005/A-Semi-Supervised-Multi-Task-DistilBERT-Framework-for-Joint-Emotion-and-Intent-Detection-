@@ -33,10 +33,7 @@ The primary innovation lies in the use of a **semi-supervised learning** approac
 
 The model was evaluated on a held-out test set, demonstrating strong performance across both tasks due to the multi-task and semi-supervised training approach.
 
-| Task | Metric (Weighted F1-Score) | Final Accuracy |
-| :--- | :--- | :--- |
-| **Emotion Detection** | **[INSERT EMOTION F1 :0.8902 ]** | **[INSERT EMOTION ACCURACY:0.8431]** |
-| **Intent Detection** | **[INSERT INTENT F1 :0.8556]** | **[INSERT INTENT ACCURACY :0.6207]** |
+<img width="278" height="137" alt="image" src="https://github.com/user-attachments/assets/1ec97c86-50e4-4249-a8ad-569dddfe9341" />
 
 > **Note:** The **overall joint classification accuracy** for the final model was **[INSERT FINAL ACCURACY HERE]**. *Please replace all bracketed placeholders with your actual results.*
 
@@ -127,8 +124,3 @@ The current framework provides the state-of-the-art analytical core. Future work
   * Integrating the model into a **secure, live-deployment chatbot environment** (which is not yet complete).
   * Exploring different semi-supervised techniques (e.g., consistency training).
   * Benchmarking against other lightweight models (e.g., BERT-Mini).
-
-
------
-
-Would you like me to help draft the `requirements.txt` file or the `LICENSE` file?
